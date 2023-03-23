@@ -39,6 +39,8 @@ html {
 
 #list-menu{
     list-style-type: none;
+    padding: 0px;
+    list-style-position: inside;
 }
 
 nav {
