@@ -27,9 +27,15 @@ html {
   border-radius: 50%;
 }
 
+#profile-picture:hover{
+  border: 5px solid #da7df1;
+  border-radius: 50%;
+}
+
 #side-content {
   width: 25%;
   height: 100%;
+  background-color: #DA70D6;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -107,12 +113,31 @@ li a:active{
   padding: 0;
 }
 
+#adress a{
+ text-decoration: none;
+ color: #BA55D3;
+}
+
+#adress a:visited{
+  color: #BA55D3;
+}
+
 #bio{
   font-family: 'Lora', serif;
   font-size: 1rem;
   text-align: left;
   margin-left: 1rem;
   padding: 0;
+}
+
+#bio a{
+  text-decoration: none;
+  color: black;
+}
+
+#bio span{
+  color:#e16e0e;
+
 }
 
 #social{
@@ -142,6 +167,6 @@ li a:active{
   color: #BA55D3 ;
 }
 ul li img{
-  height: 5rem;
+  height: 4rem;
 
 }
