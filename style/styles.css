@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto+Slab:wght@400;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Roboto+Slab:wght@400;800&display=swap");
 /* Fontes
 font-family: 'Lora', serif;
 font-family: 'Roboto Slab', serif;  */
@@ -23,11 +23,11 @@ html {
 
 #profile-picture {
   height: 150px;
-  border: 5px solid #BA55D3;
+  border: 5px solid #ba55d3;
   border-radius: 50%;
 }
 
-#profile-picture:hover{
+#profile-picture:hover {
   border: 5px solid #da7df1;
   border-radius: 50%;
 }
@@ -35,7 +35,7 @@ html {
 #side-content {
   width: 25%;
   height: 100%;
-  background-color: #DA70D6;
+  background-color: #da70d6;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -55,118 +55,136 @@ html {
   text-align: center;
 }
 
-#list-menu{
-    font-family: 'Roboto Slab', serif;
-    font-weight: 800;
-    list-style-type: none;
-    padding: 0px;
-    list-style-position: inside;
+#list-menu {
+  font-family: "Roboto Slab", serif;
+  font-weight: 800;
+  list-style-type: none;
+  padding: 0px;
+  list-style-position: inside;
 }
 
 nav {
-    font-size: 1,5rem;
-    line-height: 30px;
+  font-size: 1, 5rem;
+  line-height: 30px;
 }
 
-li a{
+li a {
   text-decoration: none;
-  color: #8B008B;
+  color: #8b008b;
 }
 
-li a:hover{
+li a:hover {
   color: white;
 }
 
-li a:active{
-  color: #BA55D3;
+li a:active {
+  color: #ba55d3;
 }
 
 /* Página Principal */
 
-#main{
+#main {
   display: flex;
   flex-direction: column;
 }
 
-#name{
-  font-family: 'Roboto Slab', serif;
+#adress {
+  font-family: "Roboto Slab", serif;
+  font-size: 1, 5rem;
+  text-align: left;
+  margin-left: 1rem;
+  padding: 0;
+}
+
+#adress a {
+  text-decoration: none;
+  color: #ba55d3;
+}
+
+#adress a:visited {
+  color: #ba55d3;
+}
+
+#bio {
+  font-family: "Lora", serif;
+  font-size: 1rem;
+  text-align: left;
+  margin-left: 1rem;
+  padding: 0;
+}
+
+#bio a {
+  text-decoration: none;
+  color: black;
+}
+
+#bio span {
+  color: #e16e0e;
+}
+
+#social {
+  font-family: "Lora", serif;
+  font-size: 1rem;
+  text-align: left;
+  margin-left: 1rem;
+  padding: 0;
+}
+
+#social-list {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+
+#social-list a:hover {
+  opacity: 70%;
+}
+
+.social-icon {
+  margin-left: 2rem;
+}
+
+.color-text {
+  color: #ba55d3;
+}
+ul li img {
+  height: 4rem;
+}
+
+/* COnhecimentos */
+
+.page-text ol {
+  list-style-type: lower-alpha;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  background-color: #da70d6;
+  border-radius: 2% 2% 150% 0%;
+  border: 2px dashed;
+}
+
+/* Geral */
+
+.page-title {
+  font-family: "Roboto Slab", serif;
   font-size: 5rem;
   text-align: left;
   font-weight: 800;
   box-sizing: border-box;
 }
 
-#name p{
+.page-title p {
   margin: 0 0 0 1rem;
 }
 
-#name a{
+.page-title a {
   text-decoration: none;
   color: black;
 }
 
-#adress{
-  font-family: 'Roboto Slab', serif;
-  font-size: 1,5rem;
+.page-text {
+  font-family: "Roboto Slab", serif;
+  font-size: 1, 5rem;
   text-align: left;
   margin-left: 1rem;
   padding: 0;
-}
-
-#adress a{
- text-decoration: none;
- color: #BA55D3;
-}
-
-#adress a:visited{
-  color: #BA55D3;
-}
-
-#bio{
-  font-family: 'Lora', serif;
-  font-size: 1rem;
-  text-align: left;
-  margin-left: 1rem;
-  padding: 0;
-}
-
-#bio a{
-  text-decoration: none;
-  color: black;
-}
-
-#bio span{
-  color:#e16e0e;
-
-}
-
-#social{
-  font-family: 'Lora', serif;
-  font-size: 1rem;
-  text-align: left;
-  margin-left: 1rem;
-  padding: 0;
-
-}
-
-#social-list{
-  list-style-type: none;
-  display: flex;
-  padding: 0;
-}
-
-#social-list a:hover{
-  opacity: 70%;
-}
-
-.social-icon{
-  margin-left: 2rem;
-}
-
-.color-text {
-  color: #BA55D3 ;
-}
-ul li img{
-  height: 4rem;
-
 }
