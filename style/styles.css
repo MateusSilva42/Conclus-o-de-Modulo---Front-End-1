@@ -1,8 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto+Slab:wght@400;800&display=swap');
+/* Fontes
+font-family: 'Lora', serif;
+font-family: 'Roboto Slab', serif;  */
+
+/* Paleta
+  Orchid: #DA70D6
+  Medium Orchid: #BA55D3
+  dark magenta: #8B008B */
+
 body,
 html {
   height: 100%;
   margin: 0px;
 }
+
+/* Menu ao lado */
 
 #page {
   display: flex;
@@ -11,7 +23,7 @@ html {
 
 #profile-picture {
   height: 150px;
-  border: 5px solid;
+  border: 5px solid #BA55D3;
   border-radius: 50%;
 }
 
@@ -38,6 +50,8 @@ html {
 }
 
 #list-menu{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
     list-style-type: none;
     padding: 0px;
     list-style-position: inside;
@@ -46,4 +60,64 @@ html {
 nav {
     font-size: 1,5rem;
     line-height: 30px;
+}
+
+li a{
+  text-decoration: none;
+  color: #8B008B;
+}
+
+li a:hover{
+  color: white;
+}
+
+li a:active{
+  color: #BA55D3;
+}
+
+/* Página Principal */
+
+#main{
+  display: flex;
+  flex-direction: column;
+}
+
+#name{
+  font-family: 'Roboto Slab', serif;
+  font-size: 5rem;
+  text-align: left;
+  font-weight: 800;
+  box-sizing: border-box;
+}
+
+#name p{
+  margin: 0 0 0 1rem;
+}
+
+#adress{
+  font-family: 'Roboto Slab', serif;
+  font-size: 1,5rem;
+  text-align: left;
+  margin-left: 1rem;
+  padding: 0;
+}
+
+#bio{
+  font-family: 'Lora', serif;
+  font-size: 1rem;
+  text-align: left;
+  margin-left: 1rem;
+  padding: 0;
+}
+
+#social{
+  font-family: 'Lora', serif;
+  font-size: 1rem;
+  text-align: left;
+  margin-left: 1rem;
+  padding: 0;
+
+}
+.color-text {
+  color: #BA55D3 ;
 }
