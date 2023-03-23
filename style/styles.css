@@ -94,6 +94,11 @@ li a:active{
   margin: 0 0 0 1rem;
 }
 
+#name a{
+  text-decoration: none;
+  color: black;
+}
+
 #adress{
   font-family: 'Roboto Slab', serif;
   font-size: 1,5rem;
@@ -118,6 +123,25 @@ li a:active{
   padding: 0;
 
 }
+
+#social-list{
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+
+#social-list a:hover{
+  opacity: 70%;
+}
+
+.social-icon{
+  margin-left: 2rem;
+}
+
 .color-text {
   color: #BA55D3 ;
+}
+ul li img{
+  height: 5rem;
+
 }
