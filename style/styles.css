@@ -151,15 +151,20 @@ ul li img {
   height: 4rem;
 }
 
-/* COnhecimentos */
+/* Conhecimentos */
 
-.page-text ol {
+#list-bg-kno {
   list-style-type: lower-alpha;
-  font-size: 1.5rem;
-  line-height: 3rem;
-  background-color: #da70d6;
-  border-radius: 2% 2% 150% 0%;
-  border: 2px dashed;
+}
+
+/* Objectives */
+#list-bg-obj {
+  list-style-type: circle;
+}
+
+.li-title {
+  list-style-type:square;
+  font-weight: 800;
 }
 
 /* Geral */
@@ -187,4 +192,18 @@ ul li img {
   text-align: left;
   margin-left: 1rem;
   padding: 0;
+}
+
+.list-bg {
+  display: block;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  background-color: #da70d6;
+  border-radius: 2% 2% 2% 2%;
+  border: 2px dashed;
+}
+
+.position {
+  display: flex;
+  flex-direction: column;
 }
